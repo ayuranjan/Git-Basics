@@ -4,7 +4,7 @@ Basic Git Commands
 
 1. git clone ____ // get my own copy of a repository
 
-2. git add -all  // after adding or changing any files in my repository
+2. git add --all  // after adding or changing any files in my repository
 
 3. git commit -m "I made some changes, why?"
 
@@ -23,3 +23,10 @@ STEPS to Clone a repository :-
 7. git clone link(copy) 
 8.Enter 
 
+Steps to push a file in a  existing  repository:-
+1. On your computer, move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository.
+2.Open Terminal.
+3.Change the current working directory to your local repository.
+4.  git add --all
+5. git commit -m "Add existing file"
+6.git push 
