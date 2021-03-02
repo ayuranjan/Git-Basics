@@ -41,5 +41,5 @@ Steps to push a file into a new repository :-
 5. type git commit -m "first commit" -- the message can be anything 
 6. copy the repository url from github 
 7. type git remote add origin url 
-8. type git push -u origin master
+8. type git push -u origin master(or main)  
 9. Done 
