@@ -30,3 +30,16 @@ Steps to push a file in a  existing  repository:-
 4.  git add --all
 5. git commit -m "Add existing file"
 6.git push 
+
+
+
+Steps to push a file into a new repository :- 
+1. go to terminal and change directory to the path of the project/folder 
+2.  type git init - this is to make a local repository 
+3. type git add . - to add all files 
+4. optional -  type git status to check the file to be commited  
+5. type git commit -m "first commit" -- the message can be anything 
+6. copy the repository url from github 
+7. type git remote add origin url 
+8. type git push -u origin master
+9. Done 
