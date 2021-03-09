@@ -31,7 +31,11 @@ Steps to push a file in a  existing  repository:-
 5. git commit -m "Add existing file"
 6.git push 
 
-
+STEPS TO KEEP A FORKED REPOSITORY UPDATED : - 
+1. Go to terminal 
+2. cd path to the local directory path 
+3. git remote add upstream url ( of the repository forked ) - this is needed for the first time only .
+4. git pull upstream main -- this need to be done everytime you want the updated project .
 
 Steps to push a file into a new repository :- 
 1. go to terminal and change directory to the path of the project/folder 
