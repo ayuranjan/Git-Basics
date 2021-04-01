@@ -20,7 +20,7 @@ STEPS to Clone a repository :-
 4. Click on Clone button
 5. Link will get displayed , click on copy button 
 6. Come back to command line
-7. git clone link(copy) 
+7. git clone link(copy)  (without .git)
 8.Enter 
 
 Steps to push a file in a  existing  repository:-
@@ -34,8 +34,8 @@ Steps to push a file in a  existing  repository:-
 STEPS TO KEEP A FORKED REPOSITORY UPDATED : - 
 1. Go to terminal 
 2. cd path to the local directory path 
-3. git remote add upstream url ( of the repository forked ) - this is needed for the first time only .
-4. git pull upstream main -- this need to be done everytime you want the updated project .
+3. git remote add upstream url ( of the repository from where you  forked ) - this is needed for the first time only .
+4. git pull upstream main(or master) -- this need to be done everytime you want the updated project .
 
 Steps to push a file into a new repository :- 
 1. go to terminal and change directory to the path of the project/folder 
