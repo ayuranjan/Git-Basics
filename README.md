@@ -50,3 +50,12 @@ Steps to push a file into a new repository :-
 7. type git remote add origin url 
 8. type git push -u origin master(or main)  
 9. Done 
+
+
+
+Portfolio Website steps :- 
+1. go to the directory where you want to fork 
+2. git clone --single-branch --branch master  https://github.com/ayuranjan/MyWebsite.git
+3. go to terminal and cd to MyWebsite folder 
+4. run -->  npm run deploy
+5. If not working try npm audit --force or npm run deploy --force 
