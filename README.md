@@ -24,7 +24,7 @@ STEPS to Clone a repository :-
 8.Enter 
 
 If you want to clone a single repository use - 
-git clone --single-branch --branch <branchname> <repo-to-be-cloned>
+git clone --single-branch --branch branchname repo-to-be-cloned
 
 Steps to push a file in a  existing  repository:-
 1. On your computer, move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository.
